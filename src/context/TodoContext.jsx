@@ -1,6 +1,6 @@
 import { useContext,createContext } from "react";
 export const TodoContext = createContext({
-    todo : {
+    todos : {
         id : 1,
         name : "do this",
         completed : false
